@@ -1,0 +1,353 @@
+/* Love Expression Section */
+.love-expression-section {
+   
+    margin-top: 5rem;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    padding: 2rem 4rem;
+    color: #5a2b67;
+    gap:20px;
+    height:465px;
+    width:1440px;
+   
+  }
+  
+  .love-expression-title {
+    font-size: 2rem;
+    color: #8d1983;
+    font-weight: bold;
+    margin-top: -7%;
+   
+    position: relative;
+  }
+  
+  .love-expression-title::before,
+  .love-expression-title::after {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  
+  .love-expression-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .love-text {
+    max-width: 40%;
+    padding: 1.5rem 2rem;
+    text-align: left;
+    border-radius: 8px;
+    margin-left: -20%;
+  }
+  .love-text h3{
+    margin-left:-50%;
+    font-size:32px;
+  
+
+  }
+  .love-text p{
+    margin-left:-50%;
+    font-size:18px;
+   
+
+  }
+  .love-text button{
+    margin-left:-50%;
+
+  }
+  
+  .love-heading {
+    font-size: 1.8rem;
+    color: #5a2b67;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .love-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #5a2b67;
+  }
+  
+  .love-button {
+    background-color: #8d1983;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .love-button:hover {
+    background-color: #5a2b67;
+  }
+  
+  /* Elegant Gifts Section */
+.elegant-gifts-section {
+  margin-top: 3rem;
+  text-align: left; /* Align content to the left */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  margin-left:10%;
+}
+
+.gifts-title {
+  font-size: 32px;
+  color:black;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.gifts-description {
+  font-size: 18px;
+  color:black;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 80%;
+  margin-left: 0;
+}
+.gifts-description11 {
+    font-size: 18px;
+    color:black;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    max-width: 80%;
+    margin-left: 0;
+  }
+
+.gifts-images-container {
+  display: flex;
+  justify-content: flex-end; /* Align images to the right */
+  gap: 2rem;
+  margin-top: 1rem;
+  position: relative; /* Needed for absolute positioning of second image */
+}
+
+.gift-image-item {
+  position: relative;
+}
+
+
+.gift-image-item:nth-child(1) {
+    height: 400px; /* Adjust the height */
+    width: 300px; /* Adjust the width */
+    margin-right: 10px; /* Adjust the right margin */
+    padding: 5px; /* Add padding around the image */
+    margin-top:-45%;
+    margin-right:-17%;
+  }
+  
+ 
+  .gift-image-item:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    margin-top:-20%;
+    left:-20%;
+  
+}
+  
+  /* Optionally, if you want to apply styles to the images themselves */
+  .gift-image-item img {
+    width: 100%; /* Make the image fill its container */
+    height: 100%; /* Make the image fill its container */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+
+  
+
+
+.gifts-footer {
+  font-size: 1rem;
+  color: #8d1983;
+  margin-top:-2%;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+/* About Us Section */
+.about-us-section {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #8d1983;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .section-title::before,
+  .section-title::after {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .about-images {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+  }
+  
+  .about-image {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+  
+  }
+  .about-images {
+    display: flex;
+    gap: 1rem; /* Add spacing between images */
+    margin-left:10%;
+  }
+  
+  .about-images img:nth-child(1) {
+    margin-right: 20px; 
+  }
+  
+  .about-images img:nth-child(2) {
+    margin-left: 150px;
+  margin-top:-70px;
+  }
+  
+  
+  .about-text {
+    /* max-width: 70%; */
+    text-align: left;
+    color:black;
+   
+  }
+  
+  .about-text p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    margin-left:-30%;
+  }
+ /* Happy Customers Section */
+.happy-customers-section {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    position: relative;
+  }
+  
+  /* Fix the heading position */
+  .happy-customers-section .section-title {
+    position: relative;
+    top: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+   
+    padding: 0.5rem 1rem;
+   
+    border-radius: 8px;
+  }
+  
+  /* Customer Images Container */
+  .customer-images {
+    display: flex;
+    align-items: center; /* Align images vertically */
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    margin-top: 100px; /* Create space below the fixed heading */
+    position: relative;
+  }
+  
+  /* First Image (Centerpiece) */
+  .customer-images img:nth-child(1) {
+    border-radius: 8px;
+    height: 350px;
+    width: 300px;
+    margin-left:-10%;
+z-index: 2;
+  }
+  
+  /* Images on the Left (4th and 5th) */
+  .customer-images img:nth-child(4){
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    
+    margin-left:-62%;
+    
+  }
+  .customer-images img:nth-child(5) {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+  
+    margin-left:-75%;
+  }
+  
+  /* Specific styling for 4th image */
+  .customer-images img:nth-child(4) {
+    margin-right: 1px; /* Small gap between 4th and 5th */
+  }
+  
+  /* Specific styling for 5th image */
+  .customer-images img:nth-child(5) {
+    margin-left: 1px; /* Small gap between 4th and 5th */
+  }
+  
+  /* Images on the Right (2nd and 3rd) */
+  .customer-images img:nth-child(2),
+  .customer-images img:nth-child(3) {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+ 
+  }
+  
+  /* Specific styling for 2nd image */
+  .customer-images img:nth-child(2) {
+    margin-right: 1px; 
+    height:250px;
+  }
+  
+  /* Specific styling for 3rd image */
+  .customer-images img:nth-child(3) {
+    margin-left: 1px; /* Small gap between 2nd and 3rd */
+    height:200px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  

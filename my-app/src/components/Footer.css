@@ -1,0 +1,81 @@
+.footer {
+    background-color: #92278f; 
+    color: white;
+    padding: 40px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    gap: 20px; 
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px; 
+    min-width: 200px; 
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-section p,
+  .footer-section a,
+  .footer-section li {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+ .footer-heading2{
+    margin-left: 35%;
+    /* float: right; */
+
+  }
+  .footer-list3 li {
+    margin-left: -17%;
+  }
+  .footer-link2{
+    margin-left: 25%;
+  }
+
+  .footer-section .social-icons .social-link {
+    color: white; /* Change icon color to white */
+    font-size: 1.5rem; /* Optional: Adjust size if needed */
+    text-decoration: none; /* Remove underline for cleaner look */
+  }
+  
+  .footer-section .social-icons .social-link:hover {
+    color: #ccc; /* Optional hover effect */
+  }

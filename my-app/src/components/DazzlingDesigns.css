@@ -1,0 +1,136 @@
+.dazzling-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./neck.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px;
+    border-radius: 8px;
+    margin-top: 2%;
+    height: auto; 
+    width: auto; 
+    overflow: hidden; 
+  }
+  
+  .dazzling-text {
+    max-width: 50%;
+   
+    padding: 80px;
+    border-radius: 8px;
+  }
+  
+  .dazzling-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5a2b67;
+    margin-bottom: 20px;
+  }
+  
+  .dazzling-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #5a2b67;
+    margin-bottom: 20px;
+  }
+  
+  .dazzling-button {
+    background-color: #7c317c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dazzling-button:hover {
+    background-color: #5a2b67;
+  }
+  /* Categories Section */
+.categories-section {
+    margin-top: 5rem;
+    text-align: center;
+ 
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #8D1983;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .section-title::before,
+  .section-title::after {
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    text-align: center;
+    width: 100px;
+  }
+  
+  .category img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+ 
+    
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category p {
+    font-size: 0.9rem;
+    color: #5a2b67;
+    font-weight: bold;
+  }
+  .stunning-arrivals-section {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .arrivals {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-template-rows: repeat(2, 300px); /* Reduced row height */
+    gap: 1rem; /* Consistent spacing between items */
+    padding: 1rem;
+  }
+  
+  .arrival img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    height: 100%; /* Ensure images fill the grid cell */
+  }
+  
+  /* First image in the left column */
+  .arrival:first-child {
+    grid-row: span 2; /* Span both rows */
+    height: auto; /* Adjust to fill its container */
+  }
+  
+  /* Second and third images in the right column */
+  .arrival:nth-child(2),
+  .arrival:nth-child(3) {
+    height: auto; /* Adjust to container height */
+  }
+  
