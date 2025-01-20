@@ -1,0 +1,243 @@
+body {
+    font-family: "Poppins";
+}
+
+.main-container-updated {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.jewels-brand {
+    margin-left: -1040px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #8d1983;
+    margin-bottom: 16px;
+    font-family: "Port Lligat Slab";
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-top:-50px;
+}
+
+.left-panel {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.address-wrapper {
+    background: #ca85ca;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.delivery-address {
+    text-align: left;
+    margin-left: 0;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.address-details {
+    text-align: left;
+    margin-left: 0;
+    font-size: 14px;
+    font-family: "Poppins";
+    
+}
+
+.update-address-btn {
+    background: transparent;
+    color: #e91e63;
+    border: 2px solid #e91e63;
+    padding: 6px 10px;
+    position: absolute;
+    top: 40px;
+    right: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-address-btn:hover {
+    background: #e91e63;
+    color: white;
+}
+
+/* .item-count {
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -580px;
+} */
+
+.item-count {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 0;
+}
+
+.product-list {
+    border-bottom: 1px solid #080808;
+}
+
+.product-box {
+    display: flex;
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+}
+
+.product-box img {
+    width: 130px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 16px;
+    margin-left: 20px;
+}
+
+.product-info {
+    flex: 1;
+    width: 100%;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    /* margin-left: -0px; */
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #000;
+    /* margin-left: -80px; */
+}
+/* 
+.selection-options {
+    margin-top: 8px;
+    margin-left: -450px;
+}
+
+.selection-options label {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.selection-options select {
+    margin-left: 4px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+ 
+
+.selection-options {
+    display: flex;
+    gap: 20px; /* Adds space between the Size and Quantity select elements */
+    margin-top: 16px;
+}
+
+.selection-options label {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selection-options select {
+    margin-left: 8px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.selection-options option {
+    padding: 4px;
+}
+
+
+  
+
+.pricing-info {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.sale-price { 
+    color: #e91e63;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.regular-price {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.shipping-info {
+    font-size: 12px;
+    color: #444;
+    margin-top: 8px;
+}
+
+
+
+.right-panel {
+    flex: 1;
+    position: sticky;
+    top: 0;
+    padding-left: 20px;
+}
+
+.order-summary {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 6px;
+    background: #f9f9f9;
+    line-height: 30px;
+    font-family: "Montserrat";
+}
+
+.order-summary h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.note {
+    font-size: 13px;
+    margin-left: 100px;
+    width: 150%;
+}
+
+.proceed-btn {
+    width: 100%;
+    padding: 10px;
+    background: #92278f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,237 @@
+
+/* Container for the entire section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: -10px;
+  }
+  .container-content{
+    margin-left: -980px;
+    
+  }
+  
+  /* Section title */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grid layout for the cards */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four cards per row */
+    gap: 20px; /* Space between cards */
+    margin-left: -20px;
+    width:1200px;
+  }
+  
+  .product-description {
+    font-size: 12px; /* Decreased font size */
+    /* margin-left: 1500px;  */
+    color: #333; /* Adjust text color for better readability */
+    line-height: 1.4; /* Adjust line height for spacing */
+  }
+  
+  
+  /* Individual card styling */
+  .card {
+    border: 1px solid #ddd; /* Light border around the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Product image styling */
+  .card img {
+    width: 100%;
+    height: 180px; /* Fixed height for consistent image size */
+    object-fit: cover; /* Ensure the image fits nicely */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Product title styling */
+  .card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: -2px;
+  }
+  
+  /* Product price styling */
+  .card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+    /* margin-left: -200px; */
+  }
+  
+  /* Discount text styling */
+  .discount {
+    color: #ff0000; /* Red color for discount */
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  
+  /* Add to cart button styling */
+  .card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d34495; /* Text color */
+    background-color: transparent; /* Plain background */
+    border: 2px solid #d34495; /* Border with same color as text */
+    border-radius: 4px;
+    cursor: pointer;
+    width:300px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #6200ea; /* Background becomes purple on hover */
+    color: #fff; /* Text changes to white on hover */
+  }
+  
+  .encoder {
+    text-align: left; /* Ensure text is aligned to the left */
+  }
+  
+  .encoder p {
+    margin-bottom: 8px; /* Space between the paragraphs */
+    font-size: 14px; /* Consistent font size */
+  }
+  
+  .encoder .product-description {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .encoder .price-discount {
+    display: flex; /* Align price and discount in the same line */
+    gap: 10px; /* Add space between price and discount */
+  }
+  
+  .encoder .price-discount p {
+    margin: 0; /* Remove extra margins */
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Ensure text is aligned to the left */
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* .card .discount {
+    font-size: 14px;
+    color: #FF7F00;
+  }
+  
+  .card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #FF7F00;
+    border: 2px solid #FF7F00;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card button:hover {
+    background-color: #FF7F00;
+    color: white;
+  } */
+  
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Ensure text is aligned to the left */
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card .discount {
+    font-size: 14px;
+    color: #000000;
+    line-height: -10%;
+  }
+  
+  .card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color:#8d1983 ;
+    border: 2px solid #8d1983;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card button:hover {
+    background-color: #8d1983;
+    color: white;
+  }
+  
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: 1fr; /* One card per row on very small screens */
+    }
+  }
+  body{
+    overflow-x: hidden;
+  }
+  
+  
