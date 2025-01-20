@@ -1,31 +1,35 @@
 
 /* Container for the entire section */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: -10px;
   }
-  .container-content{
-    margin-left: -980px;
-    
+
+  
+  .container-content {
+    text-align: center; /* Aligns the text to the center */
   }
   
-  /* Section title */
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
+  .container-content h2 {
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    font-size: 1.5rem; /* Adjust the size as needed */
+    margin: 0; /* Removes extra margin around the h2 element */
+    color: #333; /* Adjust text color */
   }
   
-  /* Grid layout for the cards */
+  
   .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Four cards per row */
     gap: 20px; /* Space between cards */
-    margin-left: -20px;
-    width:1200px;
+  
+    width: 90%; /* Increase width (e.g., 90% of the parent container) */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin-top: 7%;
+   
   }
+  
   
   .product-description {
     font-size: 12px; /* Decreased font size */
@@ -44,6 +48,8 @@
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width:300px;
+    margin-left: -82%;
   }
   
   .card:hover {
