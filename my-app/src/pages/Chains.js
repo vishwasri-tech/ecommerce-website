@@ -28,6 +28,7 @@ import image139 from "./image139.png";
 import image140 from "./image140.png";
 import image141 from "./image141.png";
 import image142 from "./image142.png";
+import Footer  from "../components/Footer";
 
 const products = [
   { id: 1, name: "Bangles", price: 559, discount: "(15% off)", image: image115},
@@ -62,6 +63,7 @@ const products = [
 
 const Chains = () => {
   return (
+    <>
     <div className="container">
       <aside className="filters">
         <h3>Filter</h3>
@@ -83,6 +85,8 @@ const Chains = () => {
         ))}
       </section>
     </div>
+    <Footer/>
+    </>
   );
 };
 

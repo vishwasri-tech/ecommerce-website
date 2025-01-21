@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import './Cart.css';
 import ProductGrid from './productGrid';
+import Footer from '../components/Footer';
 
 const Cart = () => {
   const navigate = useNavigate(); 
@@ -37,7 +38,8 @@ const Cart = () => {
   ];
 
   return (
-    
+
+ 
     <div className="main-container-updated">
       <header>
         <h1 className="jewels-brand">EternaJewels</h1>
@@ -107,7 +109,7 @@ const Cart = () => {
       <ProductGrid />
      
     </div>
-   
+
   );
 };
 

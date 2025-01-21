@@ -15,6 +15,8 @@ import image111 from "./image111.png";
 import image112 from "./image112.png";
 import image113 from "./image113.png";
 import image114 from "./image114.png";
+import Footer from "../components/Footer.js";
+
 
 
 const Wishlist = () => {
@@ -37,6 +39,7 @@ const Wishlist = () => {
   ];
 
   return (
+    <>
     <div className="wishlist-container">
       <h1>My Wishlist</h1>
       <div className="wishlist-grid">
@@ -49,7 +52,11 @@ const Wishlist = () => {
           </div>
         ))}
       </div>
+    
+   
     </div>
+    <Footer/>
+    </>
   );
 };
 
