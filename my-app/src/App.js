@@ -15,6 +15,8 @@ import Bracelet from './pages/Bracelet';
 import EarRings from './pages/EarRings';
 import Bangles from './pages/Bangles';
 import Rings from './pages/Rings';
+import Login from './pages/Login';
+import Address from './pages/Address';
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
         <Route path="/ear-rings" element={<EarRings />} />
         <Route path="/bangles" element={<Bangles />} />
         <Route path="/rings" element={<Rings />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/address" element={<Address />} />
       </Routes>
     </Router>
   );

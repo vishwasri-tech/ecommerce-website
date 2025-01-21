@@ -1,8 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import './Cart.css';
 import ProductGrid from './productGrid';
 
 const Cart = () => {
+  const navigate = useNavigate(); 
+
+  const handleContinueClick = () => {
+    navigate('/address');  // Use absolute path for navigation
+  };
+
   const products = [
     {
       id: 1,
@@ -29,6 +37,7 @@ const Cart = () => {
   ];
 
   return (
+    
     <div className="main-container-updated">
       <header>
         <h1 className="jewels-brand">EternaJewels</h1>
@@ -37,14 +46,12 @@ const Cart = () => {
       <div className="content-wrapper">
         <div className="left-panel">
           <div className="address-wrapper">
-
             <p className="delivery-address">
               Delivery to: <strong>Shambavi, 518003</strong>
             </p>
             <p className="address-details">
               Kallur Estate Near Shukulamma Temple, Nagula Chatu, Kalluru, Kurnool
             </p>
-            
             <button className="update-address-btn">Change Address</button>
           </div>
 
@@ -88,20 +95,19 @@ const Cart = () => {
         <div className="right-panel">
           <div className="order-summary">
             <h3>Price Details (2 Items)</h3>
-            <p>
-              Total Product Price <span>+Rs821</span>
-            </p>
-            <p>
-              Order Total <span>+Rs821</span>
-            </p>
-            <p className="note">Clicking on 'Continue' will not deduct any money</p>
-            <button className="proceed-btn">Continue</button>
+            <p>Total Product Price <span>+Rs821</span></p>
+            <p>Order Total <span>+Rs821</span></p>
+            <div>
+              <p className="note">Clicking on 'Continue' will not deduct any money</p>
+              <button className="proceed-btn" onClick={handleContinueClick}>Continue</button>
+            </div>
           </div>
         </div>
       </div>
-      <ProductGrid/>
+      <ProductGrid />
+     
     </div>
-
+   
   );
 };
 

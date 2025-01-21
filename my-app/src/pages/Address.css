@@ -1,0 +1,164 @@
+/* Address.css */
+
+.address-page {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .address-header h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left:50px;
+  }
+  .address-header h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left:50px;
+  }
+  
+  .address-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:600px;
+    margin-top:100px;
+    margin-left:-280px;
+  }
+  
+  .address-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(10, 8, 8, 0.1);
+  }
+  
+  .address-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: "2rem";
+  }
+  
+  .address-details {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #161313;
+    margin-top:15px;
+  }
+  
+  .address-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    text-decoration: #000000;    
+  }
+  
+  .address-btn {
+    background-color: #f0f0f0;
+    border: slategray;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #000000;
+  }
+  
+  .address-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .address-add-btn {
+    background-color: white;
+    color:#9F2089;
+    padding: 10px 15px;
+    border: 2px dashed #9F2089;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .address-add-btn:hover {
+    background-color: white;
+  }
+  
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .left-panel {
+    flex: 2;
+  }
+  
+  .right-panel {
+    flex: 1;
+    margin-left: 20px; /* Add spacing between left and right panels */
+  }
+  
+  .address-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+  }
+  
+  .address-summary {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 7.5%; 
+    margin-left: 2%;
+    width: 400px;
+  }
+  
+  .address-summary h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .address-summary p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .price-details p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px 0;
+    font-style: "Montserrat";
+    margin-bottom: 5px;
+  }
+  
+  .price-details span {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+    font-style: "Montserrat";
+
+  }
+  
+  .address-proceed-btn {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left:150px;
+  }
+  
+  .address-proceed-btn:hover {
+    background-color: #e91e63;
+  }
+  
