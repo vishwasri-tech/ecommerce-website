@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cart.css';
 import ProductGrid from './productGrid';
+import Footer from '../components/Footer';
 
 const Cart = () => {
   const products = [
@@ -29,6 +30,7 @@ const Cart = () => {
   ];
 
   return (
+    <>
     <div className="main-container-updated">
       <header>
         <h1 className="jewels-brand">EternaJewels</h1>
@@ -101,6 +103,8 @@ const Cart = () => {
       </div>
       <ProductGrid/>
     </div>
+     <Footer/>
+     </>
 
   );
 };
