@@ -109,7 +109,7 @@
     flex-grow: 1;
   }
   
-  .address-summary {
+  /* .address-summary {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -127,6 +127,36 @@
   .address-summary p {
     font-size: 14px;
     margin: 5px 0;
+    margin-top:10px;
+  } */
+
+  .address-summary {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-top: 7.5%; 
+    margin-left: 2%;
+    width: auto;
+    max-width: 400px;
+  }
+  
+  .address-summary h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .address-summary p {
+    font-size: 14px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .centered-text {
+    display: inline-block;
+    vertical-align: middle;
   }
   
   .price-details p {
@@ -145,20 +175,27 @@
     font-style: "Montserrat";
 
   }
-  
-  .address-proceed-btn {
-    background-color: #ff4081;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 15px;
-    margin-left:150px;
-  }
-  
-  .address-proceed-btn:hover {
-    background-color: #e91e63;
-  }
+
+
+.proceed-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.address-proceed-btn {
+  background-color: #9F2089;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 270px;
+}
+
+.address-proceed-btn:hover {
+  background-color: #9F2089;
+}
+
   

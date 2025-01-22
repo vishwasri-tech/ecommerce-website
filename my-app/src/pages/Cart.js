@@ -5,6 +5,7 @@ import './Cart.css';
 import ProductGrid from './productGrid';
 import Footer from '../components/Footer';
 
+
 const Cart = () => {
   const navigate = useNavigate(); 
 
@@ -38,6 +39,7 @@ const Cart = () => {
   ];
 
   return (
+    <>
 
  
     <div className="main-container-updated">
@@ -109,6 +111,8 @@ const Cart = () => {
       <ProductGrid />
      
     </div>
+    <Footer/>
+    </>
 
   );
 };

@@ -26,7 +26,7 @@ const Address = () => {
           </div>
         </div>
 
-        <button className="address-add-btn">Add New Address&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</button>
+        <button className="address-add-btn">Add New Address</button>
       </div>
 
       <div className="address-summary">
@@ -34,22 +34,24 @@ const Address = () => {
         {/* <p><img src="delivery-icon.png" alt="Delivery Icon" style="width: 20px; height: 20px; margin-right: 8px;"></img>Estimated delivery by 22 Jan 2025</p>
         <p><img src="calendar-icon.png" alt="Calendar Icon" style="width: 20px; height: 20px; margin-right: 8px;"></img>Estimated delivery by 23 Jan 2025</p> */}
 
-                    <p>
-                    <img
-                        src={delivery}
-                        alt="Delivery Icon"
-                        style={{ width: '20px', height: '20px', marginRight: '8px' }}
-                    />
-                    Estimated delivery by 22 Jan 2025
-                    </p>
-                    <p>
-                    <img
-                        src={calendar}
-                        alt="Calendar Icon"
-                        style={{ width: '20px', height: '20px', marginRight: '8px' }}
-                    />
-                    Estimated delivery by 23 Jan 2025
-                    </p>
+<div className="delivery-details">
+          <p>
+            <img
+              src={delivery}
+              alt="Delivery Icon"
+              style={{ width: '70px', height: '60px', marginRight: '8px' }}
+            />
+            <span className="centered-text">Estimated delivery by 22 Jan 2025</span>
+          </p>
+          <p>
+            <img
+              src={calendar}
+              alt="Calendar Icon"
+              style={{ width: '70px', height: '60px', marginRight: '8px' }}
+            />
+            <span className="centered-text">Estimated delivery by 23 Jan 2025</span>
+          </p>
+        </div>
 
         <h4>Price Details (2 items)</h4>
         <div className="price-details">
@@ -59,7 +61,10 @@ const Address = () => {
           <p>Shipping Fee: <span>₹938</span></p>
         </div>
         <h3>Total Amount: <span>₹938</span></h3>
-        <button className="address-proceed-btn">Proceed</button>
+        {/* <button className="address-proceed-btn">Proceed</button> */}
+        <div className="proceed-btn-container">
+          <button className="address-proceed-btn">Proceed</button>
+        </div>
       </div>
     </div>
   );
