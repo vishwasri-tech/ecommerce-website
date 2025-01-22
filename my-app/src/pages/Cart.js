@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './Cart.css';
 import ProductGrid from './productGrid';
 import Footer from '../components/Footer';
+import Header from './Header';
 
 
 const Cart = () => {
@@ -39,7 +40,9 @@ const Cart = () => {
   ];
 
   return (
+   
     <>
+    <Header/>
 
  
     <div className="main-container-updated">

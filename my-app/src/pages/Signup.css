@@ -1,6 +1,6 @@
 
 
-  .signup-container {
+  .signup-container1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +9,10 @@
     position: relative; /* Position the pseudo-element */
     font-family: "Montserrat";
     overflow: hidden; /* Ensure no overflow occurs */
+  
   }
   
-  .signup-container::before {
+  .signup-container1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -29,7 +30,7 @@
   
 
   
-  .signup-form {
+  .signup-form1 {
     background-color: #fff;
     padding-left: 70px;
     padding-right: 70px;
@@ -40,12 +41,12 @@
     width:300px;
   }
   
-  .signup-form h2 {
+  .signup-form1 h2 {
     margin-bottom: 20px;
     color: #333;
   }
   
-  .signup-form input {
+  .signup-form1 input {
     display: block;
     width: 100%;
     padding: 10px;
@@ -55,18 +56,18 @@
   }
 
 
-  .reset-password-container {
+  .reset-password-container1 {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
   }
   
-  .reset-password-container input[type="checkbox"] {
+  .reset-password-container1 input[type="checkbox"] {
     margin-left: -0.10%;
     margin-right: 8px;
   }
   
-  .reset-password {
+  .reset-password1 {
     font-size: 12px;
     color: #f1312a;
     text-decoration: none;
@@ -74,7 +75,7 @@
     margin-right: 78%;
   }
   
-  .reset-password:hover {
+  .reset-password1:hover {
     text-decoration: underline;
   }
   
@@ -93,17 +94,17 @@
     background-color: #9f2089;
   }
   
-  .signup-form p {
+  .signup-form1 p {
     margin-top: 15px;
     color: 00000;
   }
   
-  .signup-form a {
+  .signup-form1 a {
     color: #3077c4;
     text-decoration: none;
   }
   
-  .signup-form a:hover {
+  .signup-form1 a:hover {
     text-decoration: underline;
   }
   

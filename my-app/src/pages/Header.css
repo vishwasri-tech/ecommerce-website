@@ -1,0 +1,34 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8d1983;
+    margin-left: 10%;
+  }
+  
+  .jewels {
+    color: #555;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #666;
+    display: inline-block; /* Keeps it inline */
+    margin-right: 30%; /* Adjust to move the breadcrumb left */
+  }
+  
+  .breadcrumb .purple {
+    color: #8d1983; /* Purple color for Cart */
+  }
+  
+  
+  
+  

@@ -57,6 +57,9 @@ const BestSellers = () => {
           <div key={product.id} className="product-card" id={`product-${product.id}`}>
             <img src={product.image} alt={product.name} className="product-image" />
             <h3>{product.name}</h3>
+            <div className="encoder1">
+                  <p className="product-description">Women Designer Bangle Set....</p>
+                  </div>
             <p>
               ₹ {product.price} <span>{product.discount}</span>
             </p>

@@ -74,6 +74,9 @@ const Bracelet = () => {
           <div key={product.id} className="product-card">
             <img src={product.image} alt={product.name} className="product-image" />
             <h3>{product.name}</h3>
+            <div className="encoder6">
+                  <p className="product-description">Women Designer Bangle Set....</p>
+                  </div>
             <p>₹ {product.price} <span>{product.discount}</span></p>
           </div>
         ))}

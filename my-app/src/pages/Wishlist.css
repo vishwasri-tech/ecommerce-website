@@ -28,6 +28,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
     transition: transform 0.2s ease-in-out;
+    position: relative;
   }
   
   .wishlist-item:hover {
@@ -48,11 +49,13 @@
     font-size: 1.25rem;
     margin: 10px 0;
     color: #333;
+    text-align: left;
   }
   
   .price {
     font-size: 1rem;
     color: #555;
+    text-align: left;
   }
   
   .price span {
@@ -60,16 +63,19 @@
     color: #999;
   }
   
-  /* Button */
-  .add-to-cart {
-    background-color: #8d1983;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-  }
+ 
+.add-to-cart {
+  background-color: #8d1983;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 10px; /* Adjust this if needed to align with the price */
+  position: absolute;
+  right: 10px; /* Adjust this value to align the button to the right side */
+  bottom: 25px; /* Adjust this value to align with the price vertically */
+}
   
   .add-to-cart:hover {
     background-color: #721466;

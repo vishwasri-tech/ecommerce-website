@@ -6,8 +6,8 @@ import facebook from "../assets/facebook-icon.png";
 
 const Signup = () => {
   return (
-    <div className="signup-container">
-      <div className="signup-form">
+    <div className="signup-container1">
+      <div className="signup-form1">
         <h2>Sign Up</h2>
         <form>
           <label htmlFor="name">Name</label>
@@ -21,9 +21,9 @@ const Signup = () => {
 
           <label htmlFor="password">Password</label>
           <input type="password" id="password" placeholder="" />
-            <div className="reset-password-container">
+            <div className="reset-password-container1">
               <input type="checkbox" id="reset-checkbox" />
-              <label htmlFor="reset-checkbox" className="reset-password">
+              <label htmlFor="reset-checkbox" className="reset-password1">
                 Reset&nbsp;&nbsp;Password
               </label>
             </div>

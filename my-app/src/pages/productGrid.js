@@ -31,7 +31,7 @@ import image25 from "../assets/image25.png";
 import image26 from "../assets/image26.png";
 import image27 from "../assets/image27.png";
 import image28 from "../assets/image28.png";
-import Footer from "../components/Footer";
+
 
 const products = [
   { id: 1, image: image01, title: "Bangles", price: "Rs. 210", discount: "30% (Off)" },
