@@ -37,7 +37,7 @@ const Signup = () => {
           Already have an account? <Link to="/login">Login</Link> {/* Use Link to navigate */}
         </p>
 
-        <div className="social-icons">
+        <div className="social-icons1">
           <img src={google} alt="Google" />
           <img src={facebook} alt="Facebook" />
         </div>
