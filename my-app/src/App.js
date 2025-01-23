@@ -71,7 +71,7 @@ import JewelryShowcase from './components/Design';
 import Wishlist from './pages/Wishlist';
 import Cart from './pages/Cart';
 import Signup from './pages/Signup';
-import Whole from './pages/Whole';
+import All from './pages/All';
 import BestSellers from './pages/BestSellers';
 import Necklace from './pages/Necklace';
 import Chains from './pages/Chains';
@@ -125,7 +125,7 @@ const AppContent = () => {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/all" element={<Whole/>} />
+        <Route path="/all" element={<All/>} />
         <Route path="/best-sellers" element={<BestSellers />} />
         <Route path="/necklace" element={<Necklace />} />
         <Route path="/chains" element={<Chains />} />
@@ -137,9 +137,8 @@ const AppContent = () => {
         <Route path="/address" element={<Address />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/order-confirmation" element={<OrderConfirmation />} />
-        {/* <Route path='/'element={<DazzlingDesigns/>}/>
-        <Route path ='/'element ={<JewelryShowcase/>}/> */}
-      </Routes>
+     
+</Routes>
     </>
   );
 };

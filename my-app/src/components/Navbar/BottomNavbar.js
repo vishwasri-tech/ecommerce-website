@@ -6,7 +6,7 @@ function BottomNavbar() {
   return (
     <div className="bottom-navbar">
       <ul className="nav-links">
-        <li><Link to="/">All</Link></li>
+        <li><Link to="/all">All</Link></li>
         <li><Link to="/best-sellers">Best Sellers</Link></li>
         <li><Link to="/necklace">Necklace</Link></li>
         <li><Link to="/chains">Chains</Link></li>
