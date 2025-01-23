@@ -16,12 +16,12 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-heading2">Shop Now</h4>
           <ul className="footer-list">
-            <li><a href="#" className="footer-link2">Necklaces</a></li>
-            <li><a href="#" className="footer-link2">Chains</a></li>
-            <li><a href="#" className="footer-link2">Bracelets</a></li>
-            <li><a href="#" className="footer-link2">Earrings</a></li>
-            <li><a href="#" className="footer-link2">Bangles</a></li>
-            <li><a href="#" className="footer-link2">Rings</a></li>
+            <li><a href="/necklace" className="footer-link2">Necklaces</a></li>
+            <li><a href="/chains" className="footer-link2">Chains</a></li>
+            <li><a href="/bracelet" className="footer-link2">Bracelets</a></li>
+            <li><a href="/ear-rings" className="footer-link2">Earrings</a></li>
+            <li><a href="/bangles" className="footer-link2">Bangles</a></li>
+            <li><a href="/rings" className="footer-link2">Rings</a></li>
           </ul>
         </div>
         <div className="footer-section">
