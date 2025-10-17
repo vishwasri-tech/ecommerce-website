@@ -20,12 +20,11 @@ jobs:
           node-version: 18 # Use the same version as your server
 
       - name: Install dependencies
-        # Correctly cd into my-app first
-        run: cd my-app && npm install
+        # We are already at the root of the repo
+        run: npm install
 
       - name: Build React app
-        # Correctly cd into my-app first
-        run: cd my-app && npm run build
+        run: npm run build
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
@@ -35,5 +34,5 @@ jobs:
           aws-region: ap-south-1 # This is the Mumbai region
 
       - name: Deploy static site to S3
-        # Correctly sync from the build folder inside my-app
-        run: aws s3 sync ./my-app/build/ s3://kaushal-ecom-build-files --delete
+        # The build folder is now at ./build/
+        run: aws s3 sync ./build/ s3://kaushal-ecom-build-files --delete
